@@ -5,7 +5,7 @@ weight = float(input("enter your weight in kg: "))
 
 #Write your code below this line 👇
 
-BMI = round(weight/(height ** 2)
+BMI = round(weight/(height ** 2))
 
 if BMI < 18.5:
   string = "are underweight."

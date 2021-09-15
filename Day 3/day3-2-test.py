@@ -7,7 +7,7 @@ weight = float(input("enter your weight in kg: "))
 #Finally click "Run" to execute the tests
 
 
-BMI = weight/(height ** 2)
+BMI = round(weight/(height ** 2))
 
 if BMI < 18.5:
   string = "are underweight."
@@ -20,7 +20,7 @@ elif BMI < 35:
 else:
   string = "are clinically obese."
 
-print(f"Your BMI is {round(BMI)}, you {string}")
+print(f"Your BMI is {BMI}, you {string}")
 
 
 
